@@ -1,3 +1,10 @@
-{ "functions": { "api/chat.js": { "includeFiles": "data/**" } } }
-process.env.OPENAI_API_KEY
-process.env.OPENAI_MODEL
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "functions": {
+    "api/chat.js": {
+      "includeFiles": "data/**",
+      "maxDuration": 30
+    }
+  }
+}
