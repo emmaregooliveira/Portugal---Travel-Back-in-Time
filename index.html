@@ -11,9 +11,12 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
+  <script src="gpt.js" defer></script>
 </head>
 
 <body>
+
+
   <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="site-shell">
     <div class="top-note"><span class="top-note__dot" aria-hidden="true"></span> A legacy is planting seeds in a garden you never get to see.</div>
@@ -33,6 +36,73 @@
     </header>
 
     <main id="main-content">
+
+
+    <button
+      class="history-gpt__launcher"
+      id="history-gpt-launcher"
+      type="button"
+      aria-expanded="false"
+      aria-controls="history-gpt-panel"
+    >
+      <span class="history-gpt__icon" aria-hidden="true">✦</span>
+      Ask the Historian
+    </button>
+
+    <section
+      class="history-gpt__panel"
+      id="history-gpt-panel"
+      role="region"
+      aria-label="Portuguese history assistant"
+      hidden
+    >
+      <header class="history-gpt__header">
+        <div>
+          <h2 class="history-gpt__heading">The History Guide</h2>
+          <p class="history-gpt__subtitle">
+            Explore Portugal, one question at a time.
+          </p>
+        </div>
+        <button
+          class="history-gpt__close"
+          id="history-gpt-close"
+          type="button"
+          aria-label="Close chat"
+        >×</button>
+      </header>
+
+      <div
+        class="history-gpt__messages"
+        id="history-gpt-messages"
+        role="log"
+        aria-live="polite"
+        aria-relevant="additions text"
+      >
+        <div class="history-gpt__message history-gpt__message--assistant">
+          Welcome! Ask me about Portugal's history, its notable people, or a period you'd like to explore.
+        </div>
+      </div>
+
+      <form class="history-gpt__form" id="history-gpt-form">
+        <label class="visually-hidden" for="history-gpt-input">
+          Your question
+        </label>
+        <input
+          class="history-gpt__input"
+          id="history-gpt-input"
+          name="message"
+          type="text"
+          maxlength="1000"
+          placeholder="Ask about Portuguese history…"
+          autocomplete="off"
+          required
+        />
+<button class="history-gpt__send" id="history-gpt-send" type="submit">
+  Send
+</button>
+      </form>
+    </section>
+
       <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
         <div class="hero__copy">
           <p class="eyebrow"><span class="eyebrow__line"></span> Everything you need to know about Portugal</p>

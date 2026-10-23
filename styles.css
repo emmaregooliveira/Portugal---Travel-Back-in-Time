@@ -1919,7 +1919,758 @@ p:last-child {
       grid-template-columns: 1fr;
     }
 
+
+/* Portugal History AI Assistant */
+.history-gpt {
+  --chat-wine: #641f32;
+  --chat-paper: #fffaf2;
+  font-family: var(--sans);
 }
+
+.history-gpt__launcher {
+  position: fixed;
+  z-index: 1000;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 56px;
+  padding: 0 20px;
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  background: var(--wine);
+  color: var(--paper-bright);
+  box-shadow: 0 8px 28px rgba(40, 18, 20, .24);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.history-gpt__launcher:hover {
+  background: var(--wine-deep);
+}
+
+.history-gpt__icon {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.history-gpt__panel {
+  position: fixed;
+  z-index: 1001;
+  right: 24px;
+  bottom: 94px;
+  display: flex;
+  flex-direction: column;
+  width: min(390px, calc(100vw - 28px));
+  height: min(560px, calc(100dvh - 125px));
+  overflow: hidden;
+  border: 1px solid var(--gold);
+  background: var(--paper-bright);
+  color: var(--ink);
+  box-shadow: 0 20px 60px rgba(40, 18, 20, .25);
+}
+
+.history-gpt__panel[hidden] {
+  display: none;
+}
+
+.history-gpt__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 17px 18px;
+  background: var(--wine-deep);
+  color: var(--paper-bright);
+}
+
+.history-gpt__heading {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.history-gpt__subtitle {
+  margin: 4px 0 0;
+  color: #e9d9c8;
+  font-size: 11px;
+}
+
+.history-gpt__close {
+  display: grid;
+  width: 35px;
+  height: 35px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.history-gpt__messages {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  overflow-y: auto;
+  padding: 17px;
+  overscroll-behavior: contain;
+}
+
+.history-gpt__message {
+  max-width: 90%;
+  padding: 11px 13px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.history-gpt__message--user {
+  align-self: flex-end;
+  border-color: var(--wine);
+  background: var(--wine);
+  color: white;
+}
+
+.history-gpt__message--assistant,
+.history-gpt__message--status {
+  align-self: flex-start;
+}
+
+.history-gpt__message--status {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.history-gpt__form {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+  padding: 12px;
+  border-top: 1px solid var(--line);
+  background: var(--paper-bright);
+}
+
+.history-gpt__input {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+}
+
+.history-gpt__send {
+  min-width: 68px;
+  padding: 0 13px;
+  border: 0;
+  background: var(--wine);
+  color: white;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.history-gpt__send:disabled {
+  cursor: wait;
+  opacity: .6;
+}
+
+.history-gpt button:focus-visible,
+.history-gpt input:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+
+
+@media (max-width: 1000px) {
+  .hero {
+    gap: 38px;
+  }
+
+  .people-grid--preview {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .period-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .site-footer__top {
+    flex-wrap: wrap;
+  }
+
+  .site-footer__top > p {
+    order: 3;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    scroll-padding-top: 73px;
+  }
+
+  .section-wrap {
+    width: min(100% - 36px, var(--content));
+  }
+
+  .top-note {
+    font-size: .56rem;
+    letter-spacing: .08em;
+  }
+
+  .site-header {
+    min-height: 74px;
+    padding: 11px 18px;
+  }
+
+  .brand__crest {
+    width: 36px;
+    height: 42px;
+  }
+
+  .brand__name {
+    font-size: 1rem;
+  }
+
+  .brand__tagline {
+    font-size: .49rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .main-navigation {
+    position: absolute;
+    top: calc(100% - 1px);
+    right: 0;
+    left: 0;
+    display: none;
+    align-items: stretch;
+    gap: 0;
+    padding: 8px 18px 15px;
+    border-bottom: 1px solid var(--line);
+    background: var(--paper);
+    box-shadow: 0 12px 18px rgba(56,31,22,.08);
+  }
+
+  .main-navigation.is-open {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-link {
+    padding: 12px 5px;
+  }
+
+  .nav-link::after {
+    right: auto;
+    bottom: 5px;
+    width: 45px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    min-height: auto;
+    padding-top: 49px;
+    padding-bottom: 69px;
+  }
+
+  .hero h1 {
+    font-size: clamp(3rem, 13vw, 4.6rem);
+  }
+
+  .hero__lead {
+    font-size: .93rem;
+  }
+
+  .hero__footnote {
+    margin-top: 29px;
+  }
+
+  .hero__visual {
+    width: calc(100% - 10px);
+    margin-left: 6px;
+  }
+
+  .hero__image {
+    height: min(75vw, 410px);
+  }
+
+  .hero__stamp {
+    right: -4px;
+    width: 75px;
+    height: 75px;
+  }
+
+  .hero__stamp strong {
+    font-size: 1.3rem;
+  }
+
+  .hero__side-label {
+    right: -17px;
+    bottom: 32px;
+    font-size: .48rem;
+  }
+
+  .hero__bottom-rule {
+    bottom: 29px;
+  }
+
+  .intro {
+    padding-top: 37px;
+    padding-bottom: 65px;
+  }
+
+  .intro__body {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .timeline-preview {
+    padding-bottom: 70px;
+  }
+
+  .section-heading--row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .section-heading--row > .text-link {
+    margin-bottom: 0;
+  }
+
+  .milestone-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .milestone {
+    min-height: 155px;
+    padding: 20px 12px 20px 0;
+  }
+
+  .milestone:not(:first-child) {
+    padding-left: 13px;
+  }
+
+  .milestone:nth-child(3) {
+    padding-left: 0;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .milestone:nth-child(4) {
+    border-top: 1px solid var(--line);
+  }
+
+  .feature-band__inner {
+    padding-top: 58px;
+    padding-bottom: 61px;
+  }
+
+  .feature-layout {
+    grid-template-columns: 1fr;
+    gap: 31px;
+  }
+
+  .feature-layout__image-wrap img {
+    height: 270px;
+  }
+
+  .people-preview {
+    padding-top: 68px;
+    padding-bottom: 70px;
+  }
+
+  .people-grid,
+  .people-grid--preview {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .person-card__portrait {
+    min-height: 120px;
+  }
+
+  .person-card__body {
+    padding: 13px;
+  }
+
+  .person-card__name {
+    font-size: 1rem;
+  }
+
+  .person-card__role {
+    font-size: .7rem;
+  }
+
+  .quote-band {
+    padding: 48px 20px;
+  }
+
+  .timeline-page,
+  .resources-page {
+    padding-top: 67px;
+    padding-bottom: 74px;
+  }
+
+  .people-page {
+    padding: 66px 0 75px;
+  }
+
+  .timeline-controls,
+  .people-controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .select-field select {
+    width: 100%;
+  }
+
+  .period-grid,
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .period-card {
+    min-height: unset;
+  }
+
+  .people-page .people-grid {
+    margin-top: 12px;
+  }
+
+  .people-page .person-card__portrait {
+    min-height: 135px;
+  }
+
+  .resource-card {
+    min-height: 180px;
+  }
+
+  .site-footer__top {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 17px;
+    padding-top: 30px;
+    padding-bottom: 27px;
+  }
+
+  .site-footer__top > p {
+    order: 0;
+  }
+
+  .site-footer__bottom {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 14px 18px;
+    font-size: .6rem;
+  }
+
+  .site-footer__bottom span:nth-child(2) {
+    order: 3;
+    width: 100%;
+  }
+
+  .detail-dialog__profile {
+    grid-template-columns: 1fr;
+    gap: 17px;
+  }
+
+  .detail-dialog__portrait {
+    min-height: 190px;
+  }
+
+  .detail-dialog__portrait img {
+    height: 220px;
+  }
+}
+
+/* Extra-small screens: main website */
+@media (max-width: 420px) {
+  .section-wrap {
+    width: calc(100% - 28px);
+  }
+
+  .hero__actions {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .people-grid,
+  .people-grid--preview {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9px;
+  }
+
+  .person-card__portrait {
+    min-height: 100px;
+  }
+
+  .person-card__initials {
+    width: 61px;
+    height: 61px;
+    font-size: 1.45rem;
+  }
+
+  .person-card__body {
+    padding: 11px;
+  }
+
+  .person-card__name {
+    font-size: .92rem;
+  }
+
+  .person-card__more {
+    font-size: .64rem;
+  }
+
+  .milestone__date {
+    font-size: 1.05rem;
+  }
+
+  .milestone__title {
+    font-size: .77rem;
+  }
+
+  .detail-events th,
+  .detail-events td {
+    padding: 9px 6px;
+    font-size: .68rem;
+  }
+
+  .detail-events td:first-child {
+    width: 85px;
+  }
+
+  .detail-facts {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Portugal History AI Assistant */
+.history-gpt {
+  --chat-wine: #641f32;
+  --chat-paper: #fffaf2;
+  font-family: var(--sans);
+}
+
+.history-gpt__launcher {
+  position: fixed;
+  z-index: 1000;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 56px;
+  padding: 0 20px;
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  background: var(--wine);
+  color: var(--paper-bright);
+  box-shadow: 0 8px 28px rgba(40,18,20,.24);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.history-gpt__launcher:hover {
+  background: var(--wine-deep);
+}
+
+.history-gpt__icon {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.history-gpt__panel {
+  position: fixed;
+  z-index: 1001;
+  right: 24px;
+  bottom: 94px;
+  display: flex;
+  flex-direction: column;
+  width: min(390px, calc(100vw - 28px));
+  height: min(560px, calc(100dvh - 125px));
+  overflow: hidden;
+  border: 1px solid var(--gold);
+  background: var(--paper-bright);
+  color: var(--ink);
+  box-shadow: 0 20px 60px rgba(40,18,20,.25);
+}
+
+.history-gpt__panel[hidden] {
+  display: none;
+}
+
+.history-gpt__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 17px 18px;
+  background: var(--wine-deep);
+  color: var(--paper-bright);
+}
+
+.history-gpt__heading {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.history-gpt__subtitle {
+  margin: 4px 0 0;
+  color: #e9d9c8;
+  font-size: 11px;
+}
+
+.history-gpt__close {
+  display: grid;
+  width: 35px;
+  height: 35px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.history-gpt__messages {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  overflow-y: auto;
+  padding: 17px;
+  overscroll-behavior: contain;
+}
+
+.history-gpt__message {
+  max-width: 90%;
+  padding: 11px 13px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.history-gpt__message--user {
+  align-self: flex-end;
+  border-color: var(--wine);
+  background: var(--wine);
+  color: white;
+}
+
+.history-gpt__message--assistant,
+.history-gpt__message--status {
+  align-self: flex-start;
+}
+
+.history-gpt__message--status {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.history-gpt__form {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+  padding: 12px;
+  border-top: 1px solid var(--line);
+  background: var(--paper-bright);
+}
+
+.history-gpt__input {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  background: white;
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+}
+
+.history-gpt__send {
+  min-width: 68px;
+  padding: 0 13px;
+  border: 0;
+  background: var(--wine);
+  color: white;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.history-gpt__send:disabled {
+  cursor: wait;
+  opacity: .6;
+}
+
+.history-gpt button:focus-visible,
+.history-gpt input:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+
+/* Chat assistant on small screens */
+@media (max-width: 480px) {
+  .history-gpt__launcher {
+    right: 14px;
+    bottom: 14px;
+  }
+
+  .history-gpt__panel {
+    right: 14px;
+    bottom: 82px;
+    height: min(560px, calc(100dvh - 105px));
+  }
+}
+
+
+
+/* Accessibility */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }

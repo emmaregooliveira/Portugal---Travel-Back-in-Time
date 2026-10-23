@@ -2,6 +2,7 @@
 (() => {
   "use strict";
 
+
   const periods = [
     {
       id: "prehistory", number: "01", title: "Prehistoric Era", dates: "c. 400,000 – c. 1000 BCE", era: "ancient",
@@ -143,6 +144,7 @@
     { id: "steve-perry", name: "Steve Perry", years: "Born 1949", category: "artist", categoryLabel: "Singer", initials: "SP", tone: "rose", image: "", role: "Portuguese-American vocalist best known for Journey", period: "Contemporary cultural connections", born: "1949", died: "—", contribution: "Steve Perry is an American singer of Portuguese descent, best known as the lead vocalist of Journey. His career illustrates the influence of Portuguese diaspora communities on music and culture beyond Portugal's borders.", details: ["Served as the lead singer of Journey during major periods of the band's success.", "Has Portuguese family roots through his parents.", "Included as a diaspora connection to broaden the idea of Portuguese cultural history."] }
   ];
 
+
   const resources = [
     { name: "Museu da Presidência da República", type: "Official museum", description: "Explore the history of Portugal’s presidency, republican institutions, national symbols, and political leaders.", url: "https://www.museu.presidencia.pt/en/" },
     { name: "National Museum of Archaeology", type: "Museum & collections", description: "Discover archaeological objects, exhibitions, and research on the ancient peoples and material culture of Portugal.", url: "https://museunacionalarqueologia.gov.pt/" },
@@ -280,6 +282,86 @@
     openDialog();
   }
 
+
+  // Connect the chat assistant to the existing website navigation.
+window.addEventListener("portugal:assistant-action", (event) => {
+    const action = event.detail;
+
+    if (!action || !action.args) return;
+
+    if (action.name === "go_to_period") {
+      const exists = periods.some(
+        (period) => period.id === action.args.id
+      );
+
+      if (exists) {
+        openPeriod(action.args.id);
+      } else {
+        showToast("I couldn't find that historical period.");
+      }
+
+      return;
+    }
+
+    if (action.name === "go_to_person") {
+      const normalize = (value) =>
+        String(value || "")
+          .replace(/_/g, " ")
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, " ")
+          .trim();
+
+      const requestedTitle = normalize(
+        action.args.wikipedia_title
+      );
+
+      const person = people.find((item) => {
+        return [
+          item.name,
+          item.id,
+          item.title,
+          item.wikipedia_title
+        ].some((value) => normalize(value) === requestedTitle);
+      });
+
+      if (person && person.id) {
+        openPerson(person.id);
+      } else {
+        showToast(
+          "That person isn't currently available in the directory."
+        );
+      }
+
+      return;
+    }
+
+    if (action.name === "go_to_page") {
+      const page = action.args.page;
+
+      if (
+        !["home", "timeline", "people", "resources"].includes(page)
+      ) {
+        return;
+      }
+
+      const target = document.getElementById(page);
+
+      if (target) {
+        target.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        });
+
+        history.replaceState(null, "", "#" + page);
+      } else {
+        showToast("I couldn't find that website section.");
+      }
+    }
+  });
+
+
   function openDialog() {
     if (typeof dialog.showModal === "function") dialog.showModal();
     else dialog.setAttribute("open", "");
@@ -289,16 +371,7 @@
     else dialog.removeAttribute("open");
   }
 
-  function setActiveNavigation() {
-    const sections = ["home", "timeline", "people", "resources"].map((id) => $("#" + id)).filter(Boolean);
-    if (!("IntersectionObserver" in window)) return;
-    const observer = new IntersectionObserver((entries) => {
-      const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-      if (!visible) return;
-      $$(".nav-link", navigation).forEach((link) => link.classList.toggle("is-active", link.getAttribute("href") === `#${visible.target.id}`));
-    }, { rootMargin: "-25% 0px -60% 0px", threshold: [0, .15, .35, .6] });
-    sections.forEach((section) => observer.observe(section));
-  }
+
 
   function closeMobileMenu() {
     navigation.classList.remove("is-open");
