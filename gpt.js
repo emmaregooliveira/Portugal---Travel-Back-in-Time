@@ -101,20 +101,25 @@
     setWaiting(true);
 
     try {
-      const response = await fetch("chat.js", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ messages })
-      });
+const response = await fetch("/api/chat", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({ messages })
+});
+
 
       let data;
 
       try {
         data = await response.json();
       } catch {
-        throw new Error("The server returned an invalid response.");
+        throw new Error(
+          response.status === 404
+            ? "The assistant backend wasn't found. Run the site with `vercel dev` (or deploy to Vercel) instead of opening index.html directly."
+            : "The server returned an invalid response."
+        );
       }
 
       if (!response.ok) {
@@ -161,6 +166,6 @@
         input.focus();
       }
     }
+
   });
 })();
-

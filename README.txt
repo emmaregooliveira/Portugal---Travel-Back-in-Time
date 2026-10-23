@@ -20,3 +20,4 @@ Notes
 - The timeline uses approximate dates where period boundaries are debated.
 - The people directory mixes historical actors with modern diaspora and cultural connections, reflecting the wireframe.
 - Check dates, biographies, image rights, and all external links before public launch. For a production version, consider switching to locally hosted images and adding item-by-item citations to detailed history content.
+

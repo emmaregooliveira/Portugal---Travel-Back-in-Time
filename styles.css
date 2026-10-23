@@ -2482,29 +2482,6 @@ p:last-child {
   z-index: 1000;
   right: 24px;
   bottom: 24px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  min-height: 56px;
-  padding: 0 20px;
-  border: 1px solid var(--gold);
-  border-radius: 999px;
-  background: var(--wine);
-  color: var(--paper-bright);
-  box-shadow: 0 8px 28px rgba(40,18,20,.24);
-  font: inherit;
-  font-size: 14px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.history-gpt__launcher:hover {
-  background: var(--wine-deep);
-}
-
-.history-gpt__icon {
-  font-size: 22px;
-  line-height: 1;
 }
 
 .history-gpt__panel {
@@ -2512,19 +2489,15 @@ p:last-child {
   z-index: 1001;
   right: 24px;
   bottom: 94px;
-  display: flex;
-  flex-direction: column;
-  width: min(390px, calc(100vw - 28px));
-  height: min(560px, calc(100dvh - 125px));
-  overflow: hidden;
-  border: 1px solid var(--gold);
-  background: var(--paper-bright);
-  color: var(--ink);
-  box-shadow: 0 20px 60px rgba(40,18,20,.25);
 }
 
 .history-gpt__panel[hidden] {
   display: none;
+}
+
+.history-gpt__icon {
+  font-size: 22px;
+  line-height: 1;
 }
 
 .history-gpt__header {
@@ -2641,11 +2614,14 @@ p:last-child {
   opacity: .6;
 }
 
-.history-gpt button:focus-visible,
-.history-gpt input:focus-visible {
+
+.history-gpt__launcher:focus-visible,
+.history-gpt__panel button:focus-visible,
+.history-gpt__panel input:focus-visible {
   outline: 3px solid var(--gold);
   outline-offset: 3px;
 }
+
 
 /* Chat assistant on small screens */
 @media (max-width: 480px) {

@@ -1,12 +1,39 @@
 [
  {
-  "id": "prehistoric",
+  "id": "prehistory",
   "title": "Prehistoric Era",
   "dates": "c. 400,000 – c. 1000 BCE",
   "summary": "Archaic humans, Neanderthals and Homo sapiens lived in the territory long before any Portuguese state. Evidence includes the Aroeira 3 skull, dolmens and the Côa Valley rock art.",
-  "image": "images/prehistoric.jpg",
-  "events": [],
-  "changes": []
+  "image": "images/prehistory.jpg",
+  "events": [
+   [
+    "c. 400’000 years ago",
+    "Evidence from Aroeira points to archaic human presence in what is now Portugal."
+   ],
+   [
+    "c. 78'000 years ago",
+    "The supplied document notes Neanderthal evidence from the Algarve region."
+   ],
+   [
+    "c. 35’000 years ago",
+    "Approximate arrival of Homo sapiens in the regional chronology."
+   ],
+   [
+    "c. 6th millennium BCE onward",
+    "Neolithic farming practices spread into parts of the Iberian Peninsula."
+   ],
+   [
+    "c. 22’000 - 8’000 BCE",
+    "Côa Valley and Siega Verde rock-art ensemble to the Upper Palaeolithic and final Magdalenian/Epipalaeolithic period."
+   ]
+  ],
+  "changes": [
+   "The Aroeira 3 skull, found in the Cave of Aroeira in central Portugal reported from excavations in 2014, is evidence of archaic human presence around 400’000 years ago, Homo heidelbergensis to be specific.",
+   "Neanderthals occupied parts of the Iberian Peninsula tens of thousands of years ago. Later, Homo sapiens groups settled in the region; the compilation gives an approximate arrival around 35’000 years ago.",
+   "During the Neolithic, some communities practiced animal domestication, while fishing and gathering remained important. Settled life changed food production, social organization and relationships to land.",
+   "Megalithic monuments, including dolmens, and engravings of Côa Valley demonstrate traditions of symbolic expression.",
+   "Copper and Bronze Age communities developed technologies, exchanges and increasingly complex settlements. These developments did not occur as a single national culture or under a centralized political authority."
+  ]
  },
  {
   "id": "pre-roman",
@@ -41,8 +68,42 @@
   "dates": "218 BCE – 409 CE",
   "summary": "Rome arrived in the Second Punic War. Lusitanian leader Viriatus resisted until c. 139 BCE; Latin became the root of Portuguese.",
   "image": "images/roman.jpg",
-  "events": [],
-  "changes": []
+  "events": [
+   [
+    "218 BCE",
+    "Roman forces arrived in Iberia during the Second Punic War.."
+   ],
+   [
+    "c.300 BCE",
+    "A map of Iberian language areas illustrates the region’s linguistic and cultural diversity."
+   ],
+   [
+    "2nd century BCE",
+    "Viriatus became a prominent leader of Lusitanian resistance; he was killed around 139-140 BCE."
+   ],
+   [
+    "19 BCE",
+    "The major Augustan campaigns against remaining resistance in northwest Iberia ended."
+   ],
+   [
+    "74 CE",
+    "Emperor Vespasian granted Latin rights to many municipalities of Lusitania."
+   ],
+   [
+    "212 CE",
+    "Roman citizenship was extended to all free subjects of the empire."
+   ],
+   [
+    "Late 3rd century",
+    "The reorganization of imperial provinces placed much of northern Portugal in Gallaecia."
+   ]
+  ],
+  "changes": [
+   "Rome sought strategic control of Iberian resources and trade, particularly metals such as copper, tin, gold and silver. Mining districts, including the areas near Aljustrel and São Domingos, became important to the Roman economy.",
+   "Lusitanian resistance in the second century BCE became associated with Viriatus, who used mobile and guerrilla tactics against Roman forces. He assassinated around 139-140 BCE after Roman attempts to defeat him militarily had failed.",
+   "By 19 BCE, Augustus’s campaigns had defeated the remaining major resistance in northwest Iberia. This date marks the end of a key phase of conquest, not the end of Roman cultural influence.",
+   "Latin became dominant over time and supplied the foundation of Portuguese. Christianity spread in late antiquity. In 212 CE, the Constitutio Antoniniana extended Roman citizenship to free inhabitants of the of the empire; in the late third century, the province of Gallaecia included the northern part of modern Portugal."
+  ]
  },
  {
   "id": "suebi-visigoths",
@@ -50,124 +111,531 @@
   "dates": "409 – 711",
   "summary": "The Suebi built a kingdom centred on Braga until the Visigoths conquered it in 585.",
   "image": "images/suebi-visigoths.jpg",
-  "events": [],
-  "changes": []
+  "events": [
+   [
+    "409-411",
+    "Germanic groups entered and settled in parts of Iberia as Roman power weakened."
+   ],
+   [
+    "5th century",
+    "A Suebian kingdom developed in the northwest, with Braga as its main centre."
+   ],
+   [
+    "6th century",
+    "Christian institutions became central to political and religious life in the region."
+   ],
+   [
+    "585",
+    "The Visigoths became central to political and religious life in the region."
+   ],
+   [
+    "74 CE",
+    "Emperor Vespasian granted Latin rights to many municipalities of Lusitania."
+   ],
+   [
+    "711",
+    "The Muslim conquest of Iberia began, bringing the Visigothic kingdom to an end."
+   ]
+  ],
+  "changes": [
+   "Groups including the Suebi and Vandals entered Iberia in the early fifth century. The Suebi became the most durable of the post-Roman kingdoms in the northwest and used Braga as a political and religious centre.",
+   "Christian bishops and church institutions preserved some administrative continuity as Roman imperial institutions declined. Religious life changed over time: The Suebi adopted Catholic Christianity during the sixth century, and the Visigothic realm also moved toward Catholic orthodoxy.",
+   "In 585, the Visigothic ruler Liuvigild conquered the Suebian kingdom. The territory later forming Portugal was therefore governed within a larger Visigothic polity, rather than as a separate Portuguese state.",
+   "The period should not be read simply as a 'dark age.' Written records are uneven, but archaeology and ecclesiastical sources reveal continued settlement, agriculture, religious practice and regional political organization."
+  ]
  },
  {
-  "id": "al-andalus",
+  "id": "andalus",
   "title": "Al-Andalus and the Christian North",
   "dates": "711 – c. 868",
   "summary": "Muslim forces defeated the Visigoths in 711 and ruled much of what is now Portugal.",
-  "image": "images/al-andalus.jpg",
-  "events": [],
-  "changes": []
+  "image": "images/andalus.jpg",
+  "events": [
+   [
+    "711",
+    "Muslim-led forces defeated the Visigothic king and began the conquest of Iberia."
+   ],
+   [
+    "714-718",
+    "Several major cities in the territory of modern Portugal came under Muslim rule."
+   ],
+   [
+    "Mid-9th century",
+    "Viking/Norse raids on northern coastal areas."
+   ],
+   [
+    "8th-10th century",
+    "Christian-led powers remained in the north while AI-Andalus evolved politically."
+   ],
+   [
+    "74 CE",
+    "Emperor Vespasian granted Latin rights to many municipalities of Lusitania."
+   ],
+   [
+    "c.868",
+    "The early County old Portugal is conventionally associated with Portus Cale."
+   ]
+  ],
+  "changes": [
+   "The supplied history records Muslim control of Evora, Santarem and Coimbra by 714 and Lisbon soon afterwards. By the early eighth century, much of present-day Portugal was under Umayyad rule, while some northern areas remained connected to Christian powers.",
+   "AI-Andalus was not a static or uniform territory. Authority shifted, Caliphate of Cordoba and later smaller taifa states. Local populations included Muslims, Christians and Jews, whose legal and social positions varied.",
+   "The northern Christian polities were centred outside much of modern Portugal, especially in Asturias and later Galicia. Their southward expansion is called Reconquista.",
+   "Coastal areas faced raids from seaborne forces from the mid-ninth century onward.",
+   "The rise of a Christian county around Portus Cale in the late ninth century marks the beginning of a distinct Portuguese political trajectory, but it did not instantly end Muslim rule in the south."
+  ]
  },
  {
   "id": "county",
   "title": "The County of Portugal",
   "dates": "c. 868 – 1139",
-  "summary": "TODO: write your own summary.",
+  "summary": "A county centred on Portus Cale developed within the Christian kingdoms ot northwestern Iberia in the late ninth century. Over the following centuries, its rulers expanded their authority and territory while remaining tied to the wider politics of Asturias, Galicia and Leon. The county was an important institutional predecessor of the Portuguese kingdom.",
   "image": "images/county.jpg",
-  "events": [],
-  "changes": []
+  "events": [
+   [
+    "1095-1096",
+    "The county’s position was strengthened under Henry of Burgundy and Teresa."
+   ],
+   [
+    "1128",
+    "Battle of Sao Mamede: Afonso Henriques consolidated control over the country."
+   ],
+   [
+    "1139",
+    "Afonso Henriques assumed the title King of Portugal."
+   ],
+   [
+    "1143",
+    "The Treaty of Zamora brought recognition of Afonso’s royal status by the Kingdom of Leon."
+   ]
+  ],
+  "changes": [
+   "The establishment of the county around Portus Cale to Vimara Peres, acting under the authority of Alfonso Ill of Asturias, Galicia and Leon.",
+   "The region's name appears in forms such as Portulaca, Portugale and Portugalia.",
+   "The county's boundaries and political status changed with dynastic divisions. The wider kingdom was weak, but they also remained involved in rivalries among neighbouring rulers.",
+   "In the late eleventh century, Henry of Burgundy became count of Portugal and helped defend and enlarge the county. His marriage to Teresa, daughter of Alfonso VI of Leon and Castile, tied Portuguese political development to wider dynastic struggles of Iberia.",
+   "Afonso Henriques, son of Henry and Teresa, sought greater independence for the county. The Battle of Sao Mamede near Guimaraes on 24 June 1128. In 1139, a victory traditionally associated with Ourlque, Afonso’s royal status still required recognition from other authorities."
+  ]
  },
  {
-  "id": "medieval",
+  "id": "kingdom",
   "title": "Medieval Kingdom",
   "dates": "1139 – 1415",
-  "summary": "TODO (wireframe says 1249 – check dates).",
-  "image": "images/medieval.jpg",
-  "events": [],
-  "changes": []
+  "summary": "During the 12th and 13th centuries, Portugal moved toward a more durable kingdom. Royal authority, diplomacy, warfare and settlement expanded Portuguese control southward. With the conquest of the Algarve, Portugal's mainland territory was largely consolidated. The later Middle Ages brought the development of royal institutions, towns and overseas commerce, alongside conflicts over succession and the balance of power between crown, nobility, church and neighbouring kingdoms.",
+  "image": "images/kingdom.jpg",
+  "events": [
+   [
+    "1143-1147",
+    "Treaty of Zamora: Leon recognized Afonso Henriques as king. Portuguese forces and allies captured Santarem and Lisbon."
+   ],
+   [
+    "1179-1249",
+    "Papal bull Manifestis Probatum recognized Afonso I’s kingship. The Portuguese conquest of the Algarve was completed."
+   ],
+   [
+    "1383-1385",
+    "A succession crisis threatened Portugal's independence. The victory at the Battle of Aljubarrota established John l's position."
+   ],
+   [
+    "1385-1386",
+    " The Treaty of Windsor reinforced the Portuguese-English alliance."
+   ],
+   [
+    "Late 14th century",
+    "The House of Avis began a new dynasty and supported cultural and administrative projects."
+   ]
+  ],
+  "changes": [
+   "The establishment of the county around Portus Cale to Vimara Peres, acting under the authority of Alfonso Ill of Asturias, Galicia and Leon.",
+   "The region's name appears in forms such as Portulaca, Portugale and Portugalia.",
+   "The Treaty of Zamora (1143) recognized Afonso Henriques as king in his relationship with Leon. Papal recognition followed in 1179 through the bull Manifestis Probatum.",
+   "The capture of Santarem and Lisbon in 1147 was a major phase in the expansion southward. The campaign involved Christian forces and crusaders travelling through the region.",
+   "The crown pursued control over territories still held by Muslim rulers, but expansion involved complex military and diplomatic conditions. Afonso Ill completed the Portuguese conquest of the Algarve In 1249, the end of the Portuguese Reconquista on the mainland.",
+   "Lisbon became the capital in 1255, and strengthened its role in government, shipping and commerce. Fishing, agriculture and trade remained essential parts of the economy. Portugal's relationship with Castile remained a central issue.",
+   "King Fernando I died in 1383 without a male heir. The resulting succession crisis suggested that Portugal would be ruled by the Castilian crown through John I of Castile, who was married to Beatrice of Portugal.",
+   "John of Avis, supported by the urban population and military by Nuno Alvares Pereira, resisted the Castilian claim.",
+   "The Treaty of Windsor in 1386 strengthened the alliance with England.",
+   "The House of Avis became the ruling dynasty and sponsored administrative, literary and architectural developments."
+  ]
  },
  {
-  "id": "empire",
+  "id": "expansion",
   "title": "Maritime Expansion and Empire",
   "dates": "1415 – 1580",
-  "summary": "TODO",
-  "image": "images/empire.jpg",
-  "events": [],
-  "changes": []
+  "summary": "In the fifteenth century, Portugal increasingly used Atlantic and African voyages to pursue strategic, commercial and religious goals. The expansion was supported by royal patronage, shipbuilding, navigation and trading networks. It was not simply a story of exploration: it also involved conquest, settlement, extraction and the growth of the slave trade.",
+  "image": "images/expansion.jpg",
+  "events": [
+   [
+    "1415",
+    "Portugal captured Ceuta."
+   ],
+   [
+    "1418-1420",
+    "Madeira was reached and then colonized."
+   ],
+   [
+    "c. 1427-1445",
+    "The Azores were reached and colonized in stages."
+   ],
+   [
+    "1434",
+    " Gil Eanes passed Cape Bojador."
+   ],
+   [
+    "1482",
+    "Sao Jorge da Mina was established on the Gold Coast."
+   ],
+   [
+    "1488",
+    "Bartolomeu Dias rounded the Cape of Good Hope."
+   ]
+  ],
+  "changes": [
+   "The capture of Ceuta in North Africa in 1415 was the starting point of the Portuguese overseas empire. The campaign extended medieval warfare across the Strait of Gibraltar and was tied to the politics and trade of North Africa.",
+   "Portuguese expeditions reached Madeira in the late 1410s and the Azores in the early fifteenth century; colonization followed. These islands became bases for Atlantic navigation and plantation agriculture.",
+   "In 1434, Gil Eanes passed Cape Bojador, south along the African coast. Later voyages established trading posts and fortified bases, including Sao Jorge da Mina in the 1480s.",
+   "Bartolomeu Dias rounded the Cape of Good Hope in 1488, demonstrating a route from the Atlantic to the Indian Ocean. This opened the possibility of a sea route to Asian trading systems.",
+   "Portuguese expansion interacted with African societies and trade networks already in existence. It grew into violent competition over trade, territorial control and people, including participation in the Atlantic slave trade."
+  ]
  },
  {
   "id": "iberian-union",
   "title": "Iberian Union and Restoration",
   "dates": "1580 – 1668",
-  "summary": "TODO",
+  "summary": "By the sixteenth century, Portuguese ships connected ports and territories across Africa, Asia and the Americas. The empire brought new products and cultural exchange, but its scale also stretched the resources of this European kingdom. Colonial rule and maritime power were sustained through military force and systems of exploitation. From 1580 to 1640, Portugal and Spain shared a monarch from the Habsburg dynasty. The arrangement was called the Iberian Union. The Portuguese union weakened its ability to maintain an independent foreign policy, and Portuguese overseas possessions became exposed to Spain's enemies.",
   "image": "images/iberian-union.jpg",
-  "events": [],
-  "changes": []
+  "events": [
+   [
+    "1578",
+    "King Sebastian died in Morocco without an heir."
+   ],
+   [
+    "1580-1581",
+    "Philip II of Spain secured the Portuguese crown; the Iberian Union was formalized."
+   ],
+   [
+    "c. 1595-1663",
+    "The Dutch-Portuguese War damaged Portuguese overseas interests."
+   ],
+   [
+    "1640",
+    "Portugal restored a separate monarchy under John IV."
+   ],
+   [
+    "1668",
+    "The Treaty of Lisbon ended the Portuguese Restoration War and Spain recognized independence."
+   ]
+  ],
+  "changes": [
+   "Philip II of Spain became Philip I of Portugal after political negotiation. At the 1581 Cortes of Tamar, promises were made to preserve Portuguese law, administration and overseas possessions as a separate kingdom.",
+   "Over time, Portuguese interests were drawn into wider Spanish conflicts. English, Dutch and other rivals attacked Portuguese shipping and overseas territories; the Dutch-Portuguese War (1595-1663) challenged Portuguese commercial and colonial power.",
+   "A revolt on 1 December 1640 proclaimed John, Duke of Braganza, as King John IV. The Portuguese Restoration War continued until 1668. The restored monarchy had to defend itself militarily and diplomatically before Spain recognized Portugal's independence.",
+   "Dutch and English commercial powers had become stronger, and Portuguese overseas influence faced competition across the Atlantic and Indian Ocean."
+  ]
  },
  {
-  "id": "monarchy",
+  "id": "reform",
   "title": "Monarchy and Reform",
   "dates": "1668 – 1807",
-  "summary": "TODO",
-  "image": "images/monarchy.jpg",
-  "events": [],
-  "changes": []
+  "summary": "The Braganza monarchy governed Portugal after 1640, and after International recognition in 1668 it sought to strengthen the state and manage overseas holdings. In the eighteenth century, gold from Brazil provided major royal revenue. At the same time, political and economic reforms attempted to modernize the country, especially following the Lisbon earthquake of 1755.",
+  "image": "images/reform.jpg",
+  "events": [
+   [
+    "18th century",
+    "Brazilian gold became a major source of revenue for the Portuguese crown."
+   ],
+   [
+    "1750",
+    "Joseph I became king; Pombal rose to leading ministerial power."
+   ],
+   [
+    "1755",
+    "A major earthquake, tsunami and fires devastated Lisbon."
+   ],
+   [
+    "1759",
+    "The Jesuits were expelled from Portugal and its empire under Pombal's policies."
+   ],
+   [
+    "1777",
+    "Maria I succeeded Joseph I and curbed Pombal's influence."
+   ]
+  ],
+  "changes": [
+   "John V's reign was associated with wealth from Brazil, including the construction of Mafra Palace. Colonial resources supported public authority and costly royal projects.",
+   "On 1 November 1755, an earthquake, fires and tsunami devastated Lisbon.",
+   "Sebastian Jose de Carvalho de Melo, directed reconstruction and pursued reforms in trade, taxation, administration and education.",
+   "The rebuilt downtown of Lisbon used a more regular urban plan and construction approaches intended to reduce future earthquake damage, Pombal's reforms also concentrated power.",
+   "Pombal suppressed opposition, expelling the Jesuits in 1759 and harshly punished perceived enemies, Including members of the high nobility after the Tavora affair.",
+   "After Joseph I died in 1777, Queen Maria I curtailed Pombal's influence. Portugal then entered the nineteenth century with reform debates unresolved and the Atlantic imperial system racing severe pressure."
+  ]
  },
  {
   "id": "napoleonic",
   "title": "Napoleonic Crisis and Liberal Conflict",
   "dates": "1807 – 1834",
-  "summary": "TODO",
+  "summary": "The Napoleonic era destabilized Portugal's monarchy and altered the relationship between Portugal and Brazil. The royal court crossed the Atlantic to escape the French invasion, and Brazil's political status rose. liberal demands for constitutional government then collided with absolutist claims, producing a period of revolution and civil war.",
   "image": "images/napoleonic.jpg",
-  "events": [],
-  "changes": []
+  "events": [
+   [
+    "1807-1808",
+    "The  royal court moved to Brazil following the French invasion of Portugal."
+   ],
+   [
+    "1850",
+    "Brazil became a kingdom within a united monarchy."
+   ],
+   [
+    "1820",
+    "A liberal revolution began in Porto."
+   ],
+   [
+    "1821",
+    "Joao VI returned to Portugal."
+   ],
+   [
+    "1822",
+    "Pedro declared Brazil's independence."
+   ],
+   [
+    "1826",
+    "Portugal recognized Brazilian independence."
+   ],
+   [
+    "1834",
+    "The Liberal Wars ended with the defeat of Miguel and the restoration of Maria II."
+   ]
+  ],
+  "changes": [
+   "Portugal refused Napoleon's demand to join the Continental System against Britain. French forces invaded and occupied Lisbon in 1807. The royal family and court transferred to Brazil; Rio de Janeiro became the centre of the monarchy for a period.",
+   "The Peninsular War involved Portuguese and British forces against French incursions. In 1815, Brazil was elevated to a kingdom within the United Kingdom of Portugal.",
+   "The Liberal Revolution began in Porto in 1820 and demanded representative government and the king's return. Joao VI returned to Portugal in 1821, leaving his son Pedro in Brazil.",
+   "On 7 September 1822, Pedro declared Brazil's independence. Portugal formally recognized it in 1825, removing Portugal's largest colonial possession changing its economic position.",
+   "After Joao VI died in 1826, a succession conflict developed between supporters of constitutional rule and Miguel who seized power in 1828.",
+   "The Liberal Wars ended in 1834 with Miguel's defeat and the restoration of Maria II."
+  ]
  },
  {
-  "id": "constitutional",
+  "id": "constitutional-monarchy",
   "title": "Constitutional Monarchy",
   "dates": "1834 – 1910",
-  "summary": "TODO",
-  "image": "images/constitutional.jpg",
-  "events": [],
-  "changes": []
+  "summary": "After the Liberal Wars, Portugal developed a constitutional monarchy, but political conflict, economic difficulties and uneven modernization persisted. Governments expanded infrastructure and public institutions In some periods, while imperial ambitions in Africa and disputes over finances undermined the monarchy's legitimacy.",
+  "image": "images/constitutional-monarchy.jpg",
+  "events": [
+   [
+    "1834",
+    "The Liberal Wars ended, Maria ll's monarchy was restored."
+   ],
+   [
+    "1836",
+    "The Portuguese slave trade was abolished by law, slavery in the wider empire ended in a longer process."
+   ],
+   [
+    "1890",
+    "The British Ultimatum provoked a national political crisis."
+   ],
+   [
+    "1908",
+    "King Carlos I and the crown prince were assassinated."
+   ],
+   [
+    "1920",
+    "The monarchy fell and the Portuguese Republic was proclaimed."
+   ]
+  ],
+  "changes": [
+   "The constitutional settlement restored Maria II where the monarch, ministers and representative institutions shared power. Political rivalry and changes in government continued throughout the nineteenth century.",
+   "Roads, telegraphs, railways, and public health began to improve. Under Pedro V, modernization efforts became visible, though progress remained uneven across regions and classes.",
+   "Portugal's colonial ambitions in Africa intensified during the late nineteenth century. The government tried to connect its possessions in Angola and Mozambique through the 'Pink Map' project, but Britain rejected this.",
+   "On 11 January 1890, Britain issued an ultimatum requiring Portugal to withdraw its forces from the disputed area. The government complied, and many Portuguese saw this as a national humiliation. Public anger damaged the monarchy and strengthened republican sentiment.",
+   "King Carlos I and his heir Luis Filipe were assassinated in Lisbon on 1 February 1908. Financial turmoil and political distrust continued; on 5 October 1910, a republican revolution ended the monarchy."
+  ]
  },
  {
   "id": "first-republic",
   "title": "First Republic",
   "dates": "1910 – 1926",
-  "summary": "TODO",
+  "summary": "The Republic sought to replace monarchy with a parliamentary system and to reduce the Catholic Church's political influence. Its early reforms were significant, but its governments faced deep divisions, economic instability, strikes, political violence and repeated changes in leadership. Historians differ over how democratic or authoritarian aspects of the period should be characterized.",
   "image": "images/first-republic.jpg",
-  "events": [],
-  "changes": []
+  "events": [
+   [
+    "1910",
+    "The Republic was proclaimed."
+   ],
+   [
+    "1911",
+    "A new constitution formalized the parliamentary republic."
+   ],
+   [
+    "1916",
+    "Portugal entered the First World War on the Allied side."
+   ],
+   [
+    "1926",
+    "A military coup ended the First Republic."
+   ]
+  ],
+  "changes": [
+   "The 1911 Constitution established a parliamentary republic with a president and a two-chamber legislature. The new regime promoted secular policies, including separation of church and state, and changed the Church's formal role in education and public life.",
+   "The Republic remained divided between urban republicans, monarchists, socialists, labour groups, Catholic institutions and competing republican factions. Political violence and attempted coups weakened confidence in parliamentary government.",
+   "Portugal entered the First World War, and the military intervention brought additional cost and political controversy. Economic pressures and social unrest intensified rather than producing durable national consensus.",
+   "Repeated governments struggled to maintain stability. The military coup of 28 May 1926 ended the First Republic and initiated an authoritarian phase known first as the National Dictatorship."
+  ]
  },
  {
   "id": "estado-novo",
   "title": "Dictatorship and Estado Novo",
   "dates": "1926 – 1974",
-  "summary": "TODO",
+  "summary": "The 1926 coup created an authoritarian system. Antonio de Oliveira Salazar rose to power in the late 1920s and early 1930s, and the 1933 Constitution formalized the Estado Novo (“New State”). The regime restricted civil liberties and political competition, while attempting to maintain order, control organized labour and preserve Portugal's overseas empire.",
   "image": "images/estado-novo.jpg",
-  "events": [],
-  "changes": []
+  "events": [
+   [
+    "1926",
+    "The military coup began the dictatorship."
+   ],
+   [
+    "1933",
+    "A new constitution formally established the Estado Novo."
+   ],
+   [
+    "1943",
+    "Portugal allowed Allied use of bases in the Azores during the Second World War. "
+   ],
+   [
+    "1961",
+    "The colonial war in Angola began: Portugal also lost Goa to India."
+   ],
+   [
+    "1968",
+    "Marcelo Caetano replaced Salazar as head of government."
+   ],
+   [
+    "1974",
+    "The Carnation Revolution ended the Estado Novo."
+   ]
+  ],
+  "changes": [
+   "Salazar was prominent as a finance minister and then head of government. The regime developed a corporatism censorship with political police surveillance. Opposition was restricted, manipulated or repressed.",
+   "Portugal remained neutral during the Second World War. It maintained ties with Britain, sold strategic commodities to different parties during the war, and allowed the Allies to use bases in the Azores from 1943.",
+   "The regime's first decades saw relatively slow economic development compared with much of Western Europe. Growth and modernization accelerated from the early 1960s, while mass-emigration ensued.",
+   "In 1961, Portugal lost control of Goa and other Indian territories. The same year, armed conflict began in Angola; colonial wars later expanded to Guinea-Bissau and Mozambique.",
+   "Salazar was incapacitated in 1968 and replaced by Marcelo Caetano. Limited reforms did not end censorship, political repression or colonial war. On 25 April 1974, military officers in the Armed Forces Movement overthrew the regime."
+  ]
  },
  {
-  "id": "revolution",
+  "id": "democracy",
   "title": "Revolution and Democracy",
   "dates": "1974 – 1986",
-  "summary": "TODO",
-  "image": "images/revolution.jpg",
-  "events": [],
-  "changes": []
+  "summary": "The Carnation Revolution on 25 April 1974 ended the Estado Novo and opened the path to democratic government. The transition was Intense and politically contested: Portugal had to create new institutions, resolve the colonial wars, manage rapid decolonization and negotiate a new economic and social order.",
+  "image": "images/democracy.jpg",
+  "events": [
+   [
+    "1974",
+    "Carnation Revolution overthrew the Estado Novo."
+   ],
+   [
+    "1975",
+    "First free elections for a Constituent Assembly were held."
+   ],
+   [
+    "1974-1975",
+    "Most African colonies gained independence."
+   ],
+   [
+    "1975",
+    "Indonesia invaded East Timor."
+   ],
+   [
+    "1976",
+    "The Constitution was approved; It entered into force on 25 April."
+   ],
+   [
+    "1986",
+    "Portugal joined the European Economic Community."
+   ]
+  ],
+  "changes": [
+   "The immediate measures were to remove the old leadership, dissolving the National Assembly and restoring public freedoms.",
+   "The 1974-1975 period included provisional governments, political polarization, nationalizations and debates over land, industry, unions and the country's future political system.",
+   "Portugal recognized independence for its former African colonies in 1974-1975, including Guinea-Bissau, Cape Verde. Sao Tome and Principe, Mozambique and Angola.",
+   "East Timor's path to independence was interrupted when Indonesia invaded on 7 December 1975. Macau remained under Portuguese administration until 1999.",
+   "The Constitution of 1976 established a democratic framework with fundamental rights and elected institutions. The first legislative elections took place on 25 April 1976, and constitutional government was formed later that year.",
+   "Portugal applied to join the European Economic Community in 1977. After years of negotiations, the accession treaty was signed in 1985 and membership began on 1 January 1986."
+  ]
  },
  {
-  "id": "eu",
+  "id": "europe",
   "title": "European Integration",
   "dates": "1986 – 2002",
-  "summary": "TODO",
-  "image": "images/eu.jpg",
-  "events": [],
-  "changes": []
+  "summary": "Membership in the European Communities shifted Portugal's political and economic orientation more firmly toward Europe. European funding, trade, investment and policy coordination supported major changes, while the country also faced economic adjustment and the final transition of the remaining overseas territories.",
+  "image": "images/europe.jpg",
+  "events": [
+   [
+    "1 January 1986",
+    "Portugal became a member of the European Economic Community."
+   ],
+   [
+    "1998",
+    "Lisbon hosted Expo 98."
+   ],
+   [
+    "1 January 1999",
+    "Portugal entered the euro area."
+   ],
+   [
+    "20 December 1999",
+    "Macau returned to Chinese sovereignty."
+   ],
+   [
+    "1 January 2002",
+    "Euro notes and coins entered circulation."
+   ],
+   [
+    "20 May 2002",
+    "East Timor became independent."
+   ]
+  ],
+  "changes": [
+   "Portugal joined the European Economic Community on 1 January 1986; it symbolized both economic opportunity and a political commitment to democratic Europe.",
+   "The 1990s saw investments in infrastructure and broader social development. Expo 98 in Lisbon represented the country's modernization and renewed global connections.",
+   "Portugal joined the euro area on 1 January 1999, when the euro became an official currency for non-cash transactions.",
+   "Macau returned to Chinese sovereignty in 1999. East Timor became formally independent in 2002, and Portugal supported its international recognition.",
+   "Economic gains were substantial compared with earlier decades, but regional inequality and differences In productivity remained. The end of formal empire did not erase the legacies of colonial rule, migration or language and cultural ties across continents."
+  ]
  },
  {
   "id": "contemporary",
   "title": "Contemporary Portugal",
   "dates": "2002 – present",
-  "summary": "TODO",
+  "summary": "In the twenty-first century, Portugal has remained a multiparty democracy and member of the European Union. The country has seen improvements in infrastructure, education, public health and living standards since democratization, but has also faced slow productivity growth, the global financial crisis and public-debt pressures. Recent demographic estimates reflect both migration and changes in statistical methods.",
   "image": "images/contemporary.jpg",
-  "events": [],
-  "changes": []
+  "events": [
+   [
+    "2000s",
+    "Economic growth slowed in parts of the decade."
+   ],
+   [
+    "2011-2014",
+    "Portugal received an EU/IMF financial assistance programmer during the debt crisis."
+   ],
+   [
+    "Mid-2010s",
+    "Economic growth resumed after the debt-crisis period."
+   ],
+   [
+    "2025",
+    "Portugal's official resident population estimate reached about  U.4 million under a revised statistical methodology."
+   ],
+   [
+    "2026",
+    "Storm Kristin caused a severe weather emergency: the government declared a situation of calamity in affected areas."
+   ]
+  ],
+  "changes": [
+   "Economic growth slowed in parts of the 2000s. The global financial crisis and sovereign-debt crisis hit Portugal hard, and an EU/IMF financial assistance programmer operated from 2011 to 2014.",
+   "Growth resumed in the mid-2010s, though economic and regional disparities remained. The post-1974 period brought expanded access to health care, education, housing, infrastructure and social protection.",
+   "Portugal's official statistics office reported a 2025 resident population estimate of about 11.4 million.",
+   "In January 2026, Storm Kristin caused severe impacts in parts of mainland Portugal, including loss of life and damage to homes, infrastructure and communications.",
+   "European membership, migration, demographic aging, economic development, climate-related risks and the memory of dictatorship and empire continue to shape public life."
+  ]
  }
 ]

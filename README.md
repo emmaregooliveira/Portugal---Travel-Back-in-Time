@@ -9,10 +9,12 @@ DESN31927 Project 1. Static site + one Vercel function (`api/chat.js`).
 ## Deploy
 1. Push to GitHub, import in Vercel.
 2. Env vars: `OPENAI_API_KEY`, `OPENAI_MODEL` (model name from OpenAI docs).
-3. Local: `vercel dev`. Never commit keys.
+3. Local: copy `.env.example` to `.env`, add your key, then run `vercel dev` (opening index.html directly will NOT work for the chat: `/api/chat` needs the Vercel function). Never commit keys.
+4. `OPENAI_MODEL` is optional (defaults to `gpt-4o-mini`).
 
 ## Add your Figma assets to `images/`
 `hero.jpg`, `azores.jpg` (person page side strip), `resources-side.jpg`, and one `<period-id>.jpg` per period (ids in `data/timeline.json`). Missing images fall back to a parchment gradient.
 
 ## To do
 Fill the `TODO` summaries/events/changes in `data/timeline.json`; replace Resources placeholders; add `quote` / `place` to `data/people.json` where you have them.
+

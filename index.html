@@ -6,12 +6,17 @@
   <meta name="theme-color" content="#641f32">
   <meta name="description" content="Explore Portugal's history through an illustrated timeline, notable people, and trusted historical resources.">
   <title>Portugal — Travel Back in Time</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script src="app.js" defer></script>
-  <script src="gpt.js" defer></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap"
+  rel="stylesheet"
+>
+<link rel="stylesheet" href="styles.css">
+
+<script src="app.js" defer></script>
+<script src="gpt.js" defer></script>
 </head>
 
 <body>
@@ -38,71 +43,6 @@
     <main id="main-content">
 
 
-    <button
-      class="history-gpt__launcher"
-      id="history-gpt-launcher"
-      type="button"
-      aria-expanded="false"
-      aria-controls="history-gpt-panel"
-    >
-      <span class="history-gpt__icon" aria-hidden="true">✦</span>
-      Ask the Historian
-    </button>
-
-    <section
-      class="history-gpt__panel"
-      id="history-gpt-panel"
-      role="region"
-      aria-label="Portuguese history assistant"
-      hidden
-    >
-      <header class="history-gpt__header">
-        <div>
-          <h2 class="history-gpt__heading">The History Guide</h2>
-          <p class="history-gpt__subtitle">
-            Explore Portugal, one question at a time.
-          </p>
-        </div>
-        <button
-          class="history-gpt__close"
-          id="history-gpt-close"
-          type="button"
-          aria-label="Close chat"
-        >×</button>
-      </header>
-
-      <div
-        class="history-gpt__messages"
-        id="history-gpt-messages"
-        role="log"
-        aria-live="polite"
-        aria-relevant="additions text"
-      >
-        <div class="history-gpt__message history-gpt__message--assistant">
-          Welcome! Ask me about Portugal's history, its notable people, or a period you'd like to explore.
-        </div>
-      </div>
-
-      <form class="history-gpt__form" id="history-gpt-form">
-        <label class="visually-hidden" for="history-gpt-input">
-          Your question
-        </label>
-        <input
-          class="history-gpt__input"
-          id="history-gpt-input"
-          name="message"
-          type="text"
-          maxlength="1000"
-          placeholder="Ask about Portuguese history…"
-          autocomplete="off"
-          required
-        />
-<button class="history-gpt__send" id="history-gpt-send" type="submit">
-  Send
-</button>
-      </form>
-    </section>
-
       <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
         <div class="hero__copy">
           <p class="eyebrow"><span class="eyebrow__line"></span> Everything you need to know about Portugal</p>
@@ -116,7 +56,12 @@
         </div>
         <div class="hero__visual">
           <div class="hero__image-frame">
-            <img class="hero__image" src="https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=85" alt="Historic Lisbon rooftops with warm terracotta colours" fetchpriority="high">
+<img
+  class="hero__image"
+  src="https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=85"
+  alt="Historic Lisbon rooftops with warm terracotta colours"
+  fetchpriority="high"
+>
             <div class="hero__image-caption"><span class="caption-mark" aria-hidden="true">✳</span><span><strong>Lisboa, Portugal</strong><small>A landscape layered with history</small></span></div>
           </div>
           <div class="hero__stamp" aria-hidden="true"><span>HISTÓRIA</span><strong>PT</strong></div>
@@ -229,5 +174,71 @@
     <div class="detail-dialog__content" id="dialog-content"></div>
   </dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+      <button
+      class="history-gpt__launcher"
+      id="history-gpt-launcher"
+      type="button"
+      aria-expanded="false"
+      aria-controls="history-gpt-panel"
+    >
+      <span class="history-gpt__icon" aria-hidden="true">✦</span>
+      Ask the Historian
+    </button>
+
+    <section
+      class="history-gpt__panel"
+      id="history-gpt-panel"
+      role="region"
+      aria-label="Portuguese history assistant"
+      hidden
+    >
+      <header class="history-gpt__header">
+        <div>
+          <h2 class="history-gpt__heading">The History Guide</h2>
+          <p class="history-gpt__subtitle">
+            Explore Portugal, one question at a time.
+          </p>
+        </div>
+        <button
+          class="history-gpt__close"
+          id="history-gpt-close"
+          type="button"
+          aria-label="Close chat"
+        >×</button>
+      </header>
+
+      <div
+        class="history-gpt__messages"
+        id="history-gpt-messages"
+        role="log"
+        aria-live="polite"
+        aria-relevant="additions text"
+      >
+        <div class="history-gpt__message history-gpt__message--assistant">
+          Welcome! Ask me about Portugal's history, its notable people, or a period you'd like to explore.
+        </div>
+      </div>
+
+      <form class="history-gpt__form" id="history-gpt-form">
+        <label class="visually-hidden" for="history-gpt-input">
+          Your question
+        </label>
+        <input
+          class="history-gpt__input"
+          id="history-gpt-input"
+          name="message"
+          type="text"
+          maxlength="1000"
+          placeholder="Ask about Portuguese history…"
+          autocomplete="off"
+          required
+        />
+<button class="history-gpt__send" id="history-gpt-send" type="submit">
+  Send
+</button>
+      </form>
+    </section>
+
 </body>
 </html>

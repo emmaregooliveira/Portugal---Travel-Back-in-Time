@@ -411,12 +411,11 @@ window.addEventListener("portugal:assistant-action", (event) => {
     if (link.closest(".main-navigation")) closeMobileMenu();
   }));
 
+
   $("#current-year").textContent = String(new Date().getFullYear());
   renderMilestones();
   renderTimeline();
   renderFeaturedPeople();
   renderPeople();
   renderResources();
-  setActiveNavigation();
 })();
-
