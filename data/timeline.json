@@ -1,0 +1,173 @@
+[
+ {
+  "id": "prehistoric",
+  "title": "Prehistoric Era",
+  "dates": "c. 400,000 – c. 1000 BCE",
+  "summary": "Archaic humans, Neanderthals and Homo sapiens lived in the territory long before any Portuguese state. Evidence includes the Aroeira 3 skull, dolmens and the Côa Valley rock art.",
+  "image": "images/prehistoric.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "pre-roman",
+  "title": "Pre-Roman Communities and Mediterranean Contacts",
+  "dates": "c. 1000 – 218 BCE",
+  "summary": "By the first millennium BCE, the territory was home to multiple peoples and communities with different languages, political structures and economic networks. They were not one unified group, and national borders did not exist.",
+  "image": "images/pre-roman.jpg",
+  "events": [
+   [
+    "Early 1st millennium BCE",
+    "Celtic and other cultural influences developed in interaction with existing local populations."
+   ],
+   [
+    "c.300 BCE",
+    "A map of Iberian language areas illustrates the region’s linguistic and cultural diversity."
+   ],
+   [
+    "218 BCE",
+    "Roman military intervention began in Iberia during the Second Punic War, marking a new phase of outside conquest."
+   ]
+  ],
+  "changes": [
+   "The Cynetes (Conii) lived in parts of the Algarve and lower Alentejo; inscriptions and stelae remain associated with southern communities.",
+   "Lusitanian groups occupied parts of the west-central peninsula, while Callaeci communities lived in the northwest.",
+   "Phoenician, Greek and Carthaginian traders formed Mediterranean networks that reached parts of the Iberian coast.",
+   "Metals and mineral resources were economically important; settlements ranged from rural communities to fortified hilltop castros."
+  ]
+ },
+ {
+  "id": "roman",
+  "title": "Roman Conquest and Rule",
+  "dates": "218 BCE – 409 CE",
+  "summary": "Rome arrived in the Second Punic War. Lusitanian leader Viriatus resisted until c. 139 BCE; Latin became the root of Portuguese.",
+  "image": "images/roman.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "suebi-visigoths",
+  "title": "The Suebi and Visigoths",
+  "dates": "409 – 711",
+  "summary": "The Suebi built a kingdom centred on Braga until the Visigoths conquered it in 585.",
+  "image": "images/suebi-visigoths.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "al-andalus",
+  "title": "Al-Andalus and the Christian North",
+  "dates": "711 – c. 868",
+  "summary": "Muslim forces defeated the Visigoths in 711 and ruled much of what is now Portugal.",
+  "image": "images/al-andalus.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "county",
+  "title": "The County of Portugal",
+  "dates": "c. 868 – 1139",
+  "summary": "TODO: write your own summary.",
+  "image": "images/county.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "medieval",
+  "title": "Medieval Kingdom",
+  "dates": "1139 – 1415",
+  "summary": "TODO (wireframe says 1249 – check dates).",
+  "image": "images/medieval.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "empire",
+  "title": "Maritime Expansion and Empire",
+  "dates": "1415 – 1580",
+  "summary": "TODO",
+  "image": "images/empire.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "iberian-union",
+  "title": "Iberian Union and Restoration",
+  "dates": "1580 – 1668",
+  "summary": "TODO",
+  "image": "images/iberian-union.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "monarchy",
+  "title": "Monarchy and Reform",
+  "dates": "1668 – 1807",
+  "summary": "TODO",
+  "image": "images/monarchy.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "napoleonic",
+  "title": "Napoleonic Crisis and Liberal Conflict",
+  "dates": "1807 – 1834",
+  "summary": "TODO",
+  "image": "images/napoleonic.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "constitutional",
+  "title": "Constitutional Monarchy",
+  "dates": "1834 – 1910",
+  "summary": "TODO",
+  "image": "images/constitutional.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "first-republic",
+  "title": "First Republic",
+  "dates": "1910 – 1926",
+  "summary": "TODO",
+  "image": "images/first-republic.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "estado-novo",
+  "title": "Dictatorship and Estado Novo",
+  "dates": "1926 – 1974",
+  "summary": "TODO",
+  "image": "images/estado-novo.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "revolution",
+  "title": "Revolution and Democracy",
+  "dates": "1974 – 1986",
+  "summary": "TODO",
+  "image": "images/revolution.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "eu",
+  "title": "European Integration",
+  "dates": "1986 – 2002",
+  "summary": "TODO",
+  "image": "images/eu.jpg",
+  "events": [],
+  "changes": []
+ },
+ {
+  "id": "contemporary",
+  "title": "Contemporary Portugal",
+  "dates": "2002 – present",
+  "summary": "TODO",
+  "image": "images/contemporary.jpg",
+  "events": [],
+  "changes": []
+ }
+]
