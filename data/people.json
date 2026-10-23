@@ -1,8 +1,151 @@
 [
-{"title":"Afonso_Gonçalves_Baldaia","years":"1415–1481","role":"Explorer of the African coast"},
-{"title":"Álvaro_Caminha","years":"15th cen – 1499","role":"Explorer of the Atlantic islands","died":"1499"},
-{"title":"Vasco_da_Gama","years":"1460–1524","role":"Discovered the route to India","place":"Sines"},
-{"title":"Pope_John_XXI","years":"1215–1277","role":"13th-century pope","place":"Lisbon"},
-{"title":"Shawn_Mendes","years":"1998–present","role":"Canadian-Portuguese singer","place":"Pickering,_Ontario"},
-{"title":"Steve_Perry","years":"1949–present","role":"Lead singer of band Journey","place":"Hanford,_California"}
+ {
+  "id": "viriathus",
+  "title": "Viriathus",
+  "name": "Viriathus",
+  "years": "Died c. 139 BCE",
+  "role": "Leader associated with Lusitanian resistance",
+  "navigable": true
+ },
+ {
+  "id": "afonso-henriques",
+  "title": "Afonso_Henriques",
+  "name": "Afonso Henriques",
+  "years": "c. 1109–1185",
+  "role": "Central figure in the formation of the Portuguese kingdom",
+  "navigable": true
+ },
+ {
+  "id": "d-dinis",
+  "title": "Dinis_I",
+  "name": "Dinis I",
+  "years": "1261–1325",
+  "role": "King associated with administration, agriculture, and culture",
+  "navigable": true
+ },
+ {
+  "id": "joao-i",
+  "title": "João_I",
+  "name": "João I",
+  "years": "1357–1433",
+  "role": "Founder of the Avis dynasty",
+  "navigable": true
+ },
+ {
+  "id": "henry",
+  "title": "Prince_Henry_the_Navigator",
+  "name": "Prince Henry the Navigator",
+  "years": "1394–1460",
+  "role": "Infante connected with early Portuguese maritime expansion",
+  "navigable": true
+ },
+ {
+  "id": "dias",
+  "title": "Bartolomeu_Dias",
+  "name": "Bartolomeu Dias",
+  "years": "c. 1450–1500",
+  "role": "Navigator who rounded the Cape of Good Hope",
+  "navigable": true
+ },
+ {
+  "id": "gama",
+  "title": "Vasco_da_Gama",
+  "name": "Vasco da Gama",
+  "years": "c. 1460–1524",
+  "role": "Led the first Portuguese voyage to India by sea from Europe",
+  "navigable": true
+ },
+ {
+  "id": "camões",
+  "title": "Luís_de_Camões",
+  "name": "Luís de Camões",
+  "years": "c. 1524–1580",
+  "role": "Author of the epic poem The Lusiads",
+  "navigable": true
+ },
+ {
+  "id": "pombal",
+  "title": "Marquis_of_Pombal",
+  "name": "Marquis of Pombal",
+  "years": "1699–1782",
+  "role": "Powerful minister during the reign of José I",
+  "navigable": true
+ },
+ {
+  "id": "pessoa",
+  "title": "Fernando_Pessoa",
+  "name": "Fernando Pessoa",
+  "years": "1888–1935",
+  "role": "One of the most influential writers in Portuguese literature",
+  "navigable": true
+ },
+ {
+  "id": "amalia",
+  "title": "Amália_Rodrigues",
+  "name": "Amália Rodrigues",
+  "years": "1920–1999",
+  "role": "Internationally recognised voice of fado",
+  "navigable": true
+ },
+ {
+  "id": "salazar",
+  "title": "António_de_Oliveira_Salazar",
+  "name": "António de Oliveira Salazar",
+  "years": "1889–1970",
+  "role": "Dominant leader of the Estado Novo dictatorship",
+  "navigable": true
+ },
+ {
+  "id": "soares",
+  "title": "Mário_Soares",
+  "name": "Mário Soares",
+  "years": "1924–2017",
+  "role": "Socialist leader and president of Portugal",
+  "navigable": true
+ },
+ {
+  "id": "saramago",
+  "title": "José_Saramago",
+  "name": "José Saramago",
+  "years": "1922–2010",
+  "role": "Portuguese novelist awarded the 1998 Nobel Prize in Literature",
+  "navigable": true
+ },
+ {
+  "id": "shawn-mendes",
+  "title": "Shawn_Mendes",
+  "name": "Shawn Mendes",
+  "years": "Born 1998",
+  "role": "Canadian singer-songwriter with Portuguese family heritage",
+  "navigable": true
+ },
+ {
+  "id": "steve-perry",
+  "title": "Steve_Perry",
+  "name": "Steve Perry",
+  "years": "Born 1949",
+  "role": "Portuguese-American vocalist best known for Journey",
+  "navigable": true
+ },
+ {
+  "title": "Afonso_Gonçalves_Baldaia",
+  "years": "1415–1481",
+  "role": "Explorer of the African coast",
+  "navigable": false
+ },
+ {
+  "title": "Álvaro_Caminha",
+  "years": "15th cen – 1499",
+  "role": "Explorer of the Atlantic islands",
+  "died": "1499",
+  "navigable": false
+ },
+ {
+  "title": "Pope_John_XXI",
+  "years": "1215–1277",
+  "role": "13th-century pope",
+  "place": "Lisbon",
+  "navigable": false
+ }
 ]
+
